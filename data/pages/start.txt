@@ -1,0 +1,11 @@
+======The Elements of Data Wiki======
+\\ 
+[[wiki:book|Book: The Elements of Data Analytic Style]] \\ 
+\\ 
+----
+
+===== Course Content =====
+
+[[wiki:week01|Week 1]]
+
+[[wiki:week02|Week 2]]

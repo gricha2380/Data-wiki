@@ -1,0 +1,28 @@
+====== Week 1 ======
+[[wiki:syllabus|Syllabus]] \\
+\\  
+[[https://dl.dropboxusercontent.com/u/1529935/data-science/what%20do%20data%20scientists%20do.pdf|PDF]]
+
+===== What do data scientists do? ===== 
+
+  * Define the question
+  * Define the ideal dataset
+  * Determine what data you can access
+  * Obtain the data
+  * Clean the data
+  * Exploratory analysis on the data
+  * Statistical prediction/modeling
+  * Interpret the results
+  * Challenge results
+  * Synthesize/write up results
+  * Create reproducible code
+  * Distribute results to others
+
+===== R language =====
+Open source, widely supported. \\
+[[http://www.RStudio.com|RStudio]] is the IDE of choice.
+
+===== R Markdown =====
+Markdown is the file format used to make text files more readable. \\
+The extension for R markdown files is **.rmd** \\
+[[wiki:markdown_syntax|R Markdown Syntax]]
