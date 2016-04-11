@@ -26,3 +26,4 @@ Open source, widely supported. \\
 Markdown is the file format used to make text files more readable. \\
 The extension for R markdown files is **.rmd** \\
 [[wiki:markdown_syntax|R Markdown Syntax]]
+
