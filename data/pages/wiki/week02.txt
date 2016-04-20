@@ -1,0 +1,113 @@
+====== Week 2 ======
+
+===== Command Line Interface =====  
+[[https://dl.dropboxusercontent.com/u/1529935/data-science/CommandLineInterface.pdf|PDF]]
+ \\ 
+
+**What's it used for?** \\ 
+  * Navigate folders
+  * Create/Edit files, folders and programs
+  * Run programs
+
+**Basics of Directories**
+  * Directory is just another name for folder
+  * Directories are organized like a tree
+  * Directories can be inside another directory
+  * Directories can be navigated with the CLI
+  * The directory that's up is the directory that contains the current one
+
+**Special Directories**
+  * / indicates root
+  * ~ indicates home
+
+**CLI Basics**
+  * CLI has a prompt which (usually) contains name of computer, followed by username, followed by $
+  * When CLI is opened, it starts in home directory
+  * Current directory in CLI is called **Working Directory**
+
+**Command Structure**
+  * CLI recipe: command flags arguments
+  * Flags are options we give the command to trigger certain behaviors
+  * Flags are preceded by the symbol -
+  * Arguments can be what the command is going to modify or other options for the command
+  * Some commands require no flags or arguments (eg: pwd)
+
+
+**Common CLI Commands**    
+^ pwd    | (print working directory) Displays path to current directory          |
+^ clear    | Clear commands written in current CLI window          |
+^ ls    | lists files and folders in given directory |
+^ ls -a    | -a argument includes hidden items         |
+^ ls -al    | -al argument includes all and shows details          |
+^ cd    | Change directory. Without argument takes to root|
+^ cd ..   | Change directory one above current|
+^ mkdir   | Make directory|
+^ touch   | Creates an empty file. Arg is file name| 
+^ cp   | Copy. 1st arg is file, 2nd is path for copy|
+^ cp -r  | Copy directory contents|
+^ rm   | Remove. Deletes files|
+^ rm -r   | Remove directory|
+^ rm -rf   | Remove directory & suppress warnings. Very stupid.|
+^ mv   | Move. Can also be used to rename|
+^ echo   | Print arguments|
+^ date   | Print today's date|
+
+===== Git Commands =====  
+[[https://dl.dropboxusercontent.com/u/1529935/data-science/gitcommands.pdf|PDF]]
+ \\ 
+
+**What is Version Control?**
+
+Version control is a system that records changes to a file or set of files over time so that you can recall specific version slater. Git is an open source distributed version control system.
+
+Configure git with this:
+$git config -global user.name "Your Name Here"
+$git config -global email.name "Your_Email@Example.com"
+
+Confirm changes with this:
+$ git config -list
+
+
+ \\ 
+**ADDING**
+^ git add .    | adds all new files in working directory |
+^ git add -u    | updates tracking for files that changed names or were deleted |
+^ git add -A    | updates tracking and adds all new files |
+
+
+ \\ 
+**COMMITTING**
+^ git commit -m "message here"   | Commit change to local repo |
+
+
+ \\ 
+**PUSHING**
+^ git push   | Commit change to remote repo |
+
+ \\ 
+**BRANCHING**
+^ git checkout -b branchname   | Create branch|
+^ git branch   | See current branch|
+^ git checkout master   | return to master branch|
+
+**PULLING**
+Pull requests are a feature of GitHub. A Pull Request is a way to merge changes back into another branch or repo.
+
+===== Markdown Commands =====  
+| .md file extension |
+| ## 2nd level Heading|
+| ### 3rd level heading|
+| * Unordered list item |
+
+
+===== Installing R Packages =====  
+Primary location is from CRAN. It's home to over 5,000 packages.
+
+Find package info with available.packages() function.
+
+Install using install.packages("package name"). Note: This also downloads dependencies.
+Install using install.packages(c("package name", "another"))
+RStudio: Tools > Install Packages
+
+After installing, packages must be loaded into the library. Load using this: library(package_name)
+search()

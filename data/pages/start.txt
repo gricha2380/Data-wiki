@@ -9,3 +9,5 @@
 [[wiki:week01|Week 1]]
 
 [[wiki:week02|Week 2]]
+
+[[wiki:week03|Week 3]]
